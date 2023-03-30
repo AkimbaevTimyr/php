@@ -1,6 +1,6 @@
 <?php
 
-if (PHP_MAJOR_VERSION < 7){
+if (PHP_MAJOR_VERSION < 8){
     die('Необходима версия PHP >= 7');
 }
 
@@ -8,5 +8,10 @@ if (PHP_MAJOR_VERSION < 7){
 require_once dirname(__DIR__) . '/config/init.php';
 
 new \wfm\App();
+
+
+echo 'hello';
+
+
 //
 //var_dump(\wfm\App::$app->getProperty('pagination'));

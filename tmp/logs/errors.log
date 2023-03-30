@@ -1,0 +1,80 @@
+[2023-03-30 11:47:28] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 31
+=================
+[2023-03-30 11:47:46] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 31
+=================
+[2023-03-30 11:49:13] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 31
+=================
+[2023-03-30 11:50:20] Текст ошибки: Trying to access array offset on value of type null | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 31
+=================
+[2023-03-30 11:54:17] Текст ошибки: Uncaught Error: Call to undefined method wfm\ErrorHandler::logErrors() in C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php:44
+Stack trace:
+#0 [internal function]: wfm\ErrorHandler->exceptionHandler()
+#1 {main}
+  thrown | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 44
+=================
+[2023-03-30 11:54:22] Текст ошибки: Uncaught Error: Call to undefined method wfm\ErrorHandler::logErrors() in C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php:44
+Stack trace:
+#0 [internal function]: wfm\ErrorHandler->exceptionHandler()
+#1 {main}
+  thrown | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 44
+=================
+[2023-03-30 11:54:25] Текст ошибки: Uncaught Error: Call to undefined method wfm\ErrorHandler::logErrors() in C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php:44
+Stack trace:
+#0 [internal function]: wfm\ErrorHandler->exceptionHandler()
+#1 {main}
+  thrown | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 44
+=================
+[2023-03-30 11:54:26] Текст ошибки: Uncaught Error: Call to undefined method wfm\ErrorHandler::logErrors() in C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php:44
+Stack trace:
+#0 [internal function]: wfm\ErrorHandler->exceptionHandler()
+#1 {main}
+  thrown | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 44
+=================
+[2023-03-30 11:54:27] Текст ошибки: Uncaught Error: Call to undefined method wfm\ErrorHandler::logErrors() in C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php:44
+Stack trace:
+#0 [internal function]: wfm\ErrorHandler->exceptionHandler()
+#1 {main}
+  thrown | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 44
+=================
+[2023-03-30 11:54:28] Текст ошибки: Uncaught Error: Call to undefined method wfm\ErrorHandler::logErrors() in C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php:44
+Stack trace:
+#0 [internal function]: wfm\ErrorHandler->exceptionHandler()
+#1 {main}
+  thrown | Файл: C:\OSPanel\domains\shop\vendor\wfm\ErrorHandler.php | Строка: 44
+=================
+[2023-03-30 11:54:49] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 11:54:59] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 11:55:03] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 11:55:24] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 11:55:27] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 11:55:51] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 11:56:10] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 11:56:14] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 11:56:17] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 11:56:21] Текст ошибки: Произошла ошибка | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 12
+=================
+[2023-03-30 12:10:03] Текст ошибки: page  | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 14
+=================
+[2023-03-30 12:10:07] Текст ошибки: page  | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 14
+=================
+[2023-03-30 12:10:12] Текст ошибки: page  | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 14
+=================
+[2023-03-30 12:10:16] Текст ошибки: page  | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 14
+=================
+[2023-03-30 12:10:20] Текст ошибки: page  | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 14
+=================
+[2023-03-30 12:10:30] Текст ошибки: Undefined variable $test | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 14
+=================
+[2023-03-30 12:10:35] Текст ошибки: Undefined variable $test | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 14
+=================
+[2023-03-30 12:10:44] Текст ошибки: Undefined variable $test | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 14
+=================

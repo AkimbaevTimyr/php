@@ -2,6 +2,7 @@
 
 namespace wfm;
 
+// Singleton гарантирует один экземпляр класса
 trait TSingleton
 {
     private static $instance = null;

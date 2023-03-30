@@ -9,6 +9,7 @@ class App
     //действие при создании класса апп
     public function __construct()
     {
+        new ErrorHandler();
         self::$app = Registry::getInstance();
         $this->getParams();
     }
