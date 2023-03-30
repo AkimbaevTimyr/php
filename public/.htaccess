@@ -1,0 +1,10 @@
+RewriteEngine On
+
+#если запрос идет не на файл , и если запрос идет не на папку
+#тогда перенаправь запрос на index.php
+#f - file d - directory
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+#сюда приходит запрос , мы отдаем в запросе файл index.php
+RewriteRule (.*) index.php?$1 [L,QSA]

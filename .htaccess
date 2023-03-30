@@ -1,0 +1,3 @@
+RewriteEngine On
+#все приходящие запросы направляем в папку public
+RewriteRule (.*) public/$1
