@@ -6,12 +6,11 @@ if (PHP_MAJOR_VERSION < 8){
 
 //подключили файл конфигурации
 require_once dirname(__DIR__) . '/config/init.php';
+require_once HELPERS . '/functions.php';
+require_once CONFIG . '/routes.php';
+
 
 new \wfm\App();
 
+debug(\wfm\Router::getRoutes());
 
-echo 'hello';
-
-
-//
-//var_dump(\wfm\App::$app->getProperty('pagination'));

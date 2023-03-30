@@ -9,9 +9,15 @@ class App
     //действие при создании класса апп
     public function __construct()
     {
+        //получаем строку запроса, и убераем слеши в конце и в начале строки
+        $query = trim(urldecode($_SERVER['QUERY_STRING']), '/');
+
         new ErrorHandler();
         self::$app = Registry::getInstance();
         $this->getParams();
+
+        //передаем в роутер полученную выше строку запроса
+        Router::dispatch($query);
     }
 
     protected function getParams()

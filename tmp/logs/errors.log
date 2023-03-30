@@ -78,3 +78,7 @@ Stack trace:
 =================
 [2023-03-30 12:10:44] Текст ошибки: Undefined variable $test | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 14
 =================
+[2023-03-30 14:17:01] Текст ошибки: Call to undefined function debug() | Файл: C:\OSPanel\domains\shop\public\index.php | Строка: 15
+=================
+[2023-03-30 14:17:29] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\shop\vendor\wfm\helpers\functions.php | Строка: 5
+=================

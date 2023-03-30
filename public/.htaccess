@@ -8,3 +8,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 
 #сюда приходит запрос , мы отдаем в запросе файл index.php
 RewriteRule (.*) index.php?$1 [L,QSA]
+#QSA - Добалвяем строку запроса/ cart/id=1 строка запроса будет id=1
