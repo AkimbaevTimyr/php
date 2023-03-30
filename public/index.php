@@ -7,5 +7,6 @@ if (PHP_MAJOR_VERSION < 7){
 //подключили файл конфигурации
 require_once dirname(__DIR__) . '/config/init.php';
 
-
-echo 123;
+new \wfm\App();
+//
+//var_dump(\wfm\App::$app->getProperty('pagination'));
