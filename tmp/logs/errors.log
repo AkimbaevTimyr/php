@@ -82,3 +82,27 @@ Stack trace:
 =================
 [2023-03-30 14:17:29] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\shop\vendor\wfm\helpers\functions.php | Строка: 5
 =================
+[2023-03-31 11:08:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 35
+=================
+[2023-03-31 11:18:42] Текст ошибки: Контроллер app\controllers\ProductController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 43
+=================
+[2023-03-31 11:19:27] Текст ошибки: Контроллер app\controllers\ProductController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 43
+=================
+[2023-03-31 11:19:45] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 46
+=================
+[2023-03-31 11:19:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 46
+=================
+[2023-03-31 11:20:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 46
+=================
+[2023-03-31 11:20:09] Текст ошибки: Контроллер app\controllers\MainController :: indexAction не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 40
+=================
+[2023-03-31 11:21:08] Текст ошибки: Контроллер app\controllers\MainController :: indexAction не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 40
+=================
+[2023-03-31 11:33:13] Текст ошибки: Контроллер app\controllers\SiteController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 44
+=================
+[2023-03-31 11:33:35] Текст ошибки: Контроллер app\controllers\SiteController :: cartAction не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 41
+=================
+[2023-03-31 11:34:33] Текст ошибки: Контроллер app\controllers\admin\SiteController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 44
+=================
+[2023-03-31 11:39:31] Текст ошибки: Контроллер app\controllers\admin\SiteController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 44
+=================

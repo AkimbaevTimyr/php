@@ -28,9 +28,22 @@ class Router
     {
         if(self::matchRoute($url))
         {
-            echo 'Okey';
+            //формируем путь к контроллеру
+            $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
+            //проверяем если у нас есть контроллер то создаем экземпляр данного класса
+            if(class_exists($controller)) {
+                $controllerObject = new $controller(self::$route);
+                $action = self::lowerCamelCase(self::$route['action'] . 'Action');
+                if(method_exists($controllerObject, $action)){
+                    $controllerObject->$action();
+                }else{
+                    throw new \Exception("Контроллер {$controller} :: {$action} не найдена", 404);
+                }
+            }else {
+                throw new \Exception("Контроллер {$controller} не найдена", 404);
+            }
         } else {
-            echo 'No';
+            throw new \Exception('Страница не найдена', 404);
         }
     }
     public static function matchRoute($url): bool
@@ -54,10 +67,10 @@ class Router
                 if(!isset($route['admin_prefix'])){
                     $route['admin_prefix'] = "";
                 }else{
-                    $route['admin_prefix'] = '\\';
+                    $route['admin_prefix'] .= '\\';
                 }
                 $route['controller']  = self::upperCamelCase($route['controller']);
-                debug($route);
+                self::$route = $route;
                 return true;
             }
         }
@@ -82,3 +95,5 @@ class Router
         return lcfirst(self::upperCamelCase($name));
     }
 }
+
+
