@@ -108,3 +108,7 @@ Stack trace:
 =================
 [2023-04-01 09:28:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 46
 =================
+[2023-04-01 09:56:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 51
+=================
+[2023-04-01 10:08:52] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: C:\OSPanel\domains\shop\app\controllers\MainController.php | Строка: 11
+=================

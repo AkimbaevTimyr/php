@@ -32,8 +32,12 @@ class Router
             $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
             //проверяем если у нас есть контроллер то создаем экземпляр данного класса
             if(class_exists($controller)) {
+                /** @var Controller $controllerObject */
+                //создаем экземпляр клаасса по его пути
                 $controllerObject = new $controller(self::$route);
+                //берем название введенного action в запросе
                 $action = self::lowerCamelCase(self::$route['action'] . 'Action');
+                //проверяем есть у контроллера метод
                 if(method_exists($controllerObject, $action)){
                     $controllerObject->$action();
                 }else{
