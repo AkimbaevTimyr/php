@@ -34,6 +34,7 @@ abstract class Controller
         (new View($this->route, $this->layout, $this->view, $this->meta))->render($this->data);
     }
 
+    //с помощью данной функции можем передовать данные из контроллера в view
     public function set($data)
     {
         $this->data = $data;

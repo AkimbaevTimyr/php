@@ -35,6 +35,7 @@ class Router
                 /** @var Controller $controllerObject */
                 //создаем экземпляр клаасса по его пути
                 $controllerObject = new $controller(self::$route);
+                $controllerObject->getModel();
                 //берем название введенного action в запросе
                 $action = self::lowerCamelCase(self::$route['action'] . 'Action');
                 //проверяем есть у контроллера метод

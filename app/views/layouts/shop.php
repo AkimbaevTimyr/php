@@ -8,7 +8,7 @@ use wfm\View;
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 <head>
-    <title>Shop</title>
+    <?= $this->getMeta(); ?>
 </head>
 <body>
 
