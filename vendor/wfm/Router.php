@@ -40,6 +40,7 @@ class Router
                 //проверяем есть у контроллера метод
                 if(method_exists($controllerObject, $action)){
                     $controllerObject->$action();
+                    $controllerObject->getView();
                 }else{
                     throw new \Exception("Контроллер {$controller} :: {$action} не найдена", 404);
                 }

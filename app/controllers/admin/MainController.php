@@ -1,17 +1,17 @@
 <?php
 
 
-namespace app\controllers;
+namespace app\controllers\admin;
 use wfm\Controller;
 
 class MainController extends Controller
 {
     public function indexAction()
     {
-    }
 
+    }
     public function cartAction()
     {
-        echo 'Cart:Iphone';
+        echo 'Cart:Admin';
     }
 }

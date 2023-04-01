@@ -29,6 +29,9 @@ abstract class Controller
         //проверяем если есть у нас view то отсавляем его
         //если view нет то устанавливаем значение action
         $this->view = $this->view ?: $this->route['action'];
+        //создаем класс , передаем в конструктор параметры
+        //затем вызываем метод для рендера view
+        (new View($this->route, $this->layout, $this->view, $this->meta))->render($this->data);
     }
 
     public function set($data)

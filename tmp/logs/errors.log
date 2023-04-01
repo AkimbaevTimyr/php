@@ -112,3 +112,41 @@ Stack trace:
 =================
 [2023-04-01 10:08:52] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: C:\OSPanel\domains\shop\app\controllers\MainController.php | Строка: 11
 =================
+[2023-04-01 12:12:57] Текст ошибки: Undefined array key "admin_prerfix" | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 28
+=================
+[2023-04-01 12:14:11] Текст ошибки: Контроллер app\controllers\admin\MainController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 48
+=================
+[2023-04-01 12:14:22] Текст ошибки: Контроллер app\controllers\admin\CartController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 48
+=================
+[2023-04-01 12:14:28] Текст ошибки: Контроллер app\controllers\admin\CartController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 48
+=================
+[2023-04-01 12:14:44] Текст ошибки: Контроллер app\controllers\admin\MainController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 48
+=================
+[2023-04-01 12:14:56] Текст ошибки: Контроллер app\controllers\admin\MainController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 48
+=================
+[2023-04-01 12:15:25] Текст ошибки: Контроллер app\controllers\AdminController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 48
+=================
+[2023-04-01 12:15:30] Текст ошибки: Контроллер app\controllers\AdminController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 48
+=================
+[2023-04-01 12:15:48] Текст ошибки: Контроллер app\controllers\admin\MainController не найдена | Файл: C:\OSPanel\domains\shop\vendor\wfm\Router.php | Строка: 48
+=================
+[2023-04-01 12:19:17] Текст ошибки: syntax error, unexpected token "}" | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 36
+=================
+[2023-04-01 12:19:31] Текст ошибки: Не найден вид C:\OSPanel\domains\shop/app/views/admin/Main/index.php | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 34
+=================
+[2023-04-01 12:29:07] Текст ошибки: syntax error, unexpected token "}" | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 45
+=================
+[2023-04-01 12:29:13] Текст ошибки:  Не найден шаблон {layout_file$} | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 44
+=================
+[2023-04-01 12:29:19] Текст ошибки:  Не найден шаблон C:\OSPanel\domains\shop/app/views/layouts/shop.php | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 44
+=================
+[2023-04-01 12:30:22] Текст ошибки:  Не найден шаблон C:\OSPanel\domains\shop/app/views/layouts/shop.php | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 44
+=================
+[2023-04-01 12:30:30] Текст ошибки: Не найден вид C:\OSPanel\domains\shop/app/views/Main/index.php | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 36
+=================
+[2023-04-01 12:30:38] Текст ошибки: Не найден вид C:\OSPanel\domains\shop/app/views/Main/index.php | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 36
+=================
+[2023-04-01 12:31:23] Текст ошибки: Не найден вид C:\OSPanel\domains\shop/app/views/Main/index.php | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 36
+=================
+[2023-04-01 12:31:39] Текст ошибки:  Не найден шаблон C:\OSPanel\domains\shop/app/views/layouts/main.php | Файл: C:\OSPanel\domains\shop\vendor\wfm\View.php | Строка: 44
+=================
