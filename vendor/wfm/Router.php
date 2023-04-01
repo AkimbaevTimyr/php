@@ -46,8 +46,24 @@ class Router
             throw new \Exception('Страница не найдена', 404);
         }
     }
+
+    // метод для удаления параметров в запросе
+    protected static function removeQueryString($url)
+    {
+        if($url){
+            //explode разбивает строку на элементы массива
+            //и указываем что разбиваем строку на 2 элемента массива
+            $params = explode('&', $url, 2);
+            if(false === str_contains($params[0], '=')){
+                return rtrim($params[0], '/'); // page/view/ => page/view
+            }
+        }
+        return '';
+    }
+
     public static function matchRoute($url): bool
     {
+        $url = self::removeQueryString($url);
         //в pattern попадает шаблон регулярного выражения
         //в route попадает массив в путям
         //флаг i делет шаблон регистро независемым
